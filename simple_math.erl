@@ -12,6 +12,6 @@ add(A,B) ->
 -ifdef(EUNIT).
 
 add_test() ->
-  assert_equal(4,add(2,2)).
+  4 = add(2,2)).
 
 -endif.
